@@ -63,10 +63,10 @@
     </body>
 </html>
 <script type="text/javascript">
-    const output = window.document.getElementById('output');
-    const buttonset = window.document.getElementById('buttonset');
-    const buttons = window.document.querySelectorAll('nav a');
-    const preview = window.document.getElementById('preview');
+    const output = document.getElementById('output');
+    const buttonset = document.getElementById('buttonset');
+    const buttons = document.querySelectorAll('nav a');
+    const preview = document.getElementById('preview');
     let current = buttons[0];
     function imageOutput(btn) {
         output.src = btn.href;
